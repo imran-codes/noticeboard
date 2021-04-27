@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="11px" viewBox="0 0 13 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape 3 Copy 3</title>
+    <defs>
+        <path d="M2.65489247,3.56590753 C2.04754909,2.95856416 1.06285091,2.95856416 0.455507534,3.56590753 C-0.151835845,4.17325091 -0.151835845,5.15794909 0.455507534,5.76529247 L3.56590753,8.87569247 C4.17325091,9.48303584 5.15794909,9.48303584 5.76529247,8.87569247 L11.9860925,2.65489247 C12.5934358,2.04754909 12.5934358,1.06285091 11.9860925,0.455507534 C11.3787491,-0.151835845 10.3940509,-0.151835845 9.78670753,0.455507534 L4.6656,5.57661507 L2.65489247,3.56590753 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Noticeboard" transform="translate(-927.000000, -107.000000)">
+            <g id="Group-43" transform="translate(44.000000, 96.000000)">
+                <g id="Group-31" transform="translate(883.000000, 9.000000)">
+                    <g id="Combined-Shape-3-Copy" transform="translate(0.000000, 2.700000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

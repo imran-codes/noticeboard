@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noticeboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!-- Top Header -->
+  <div id = "topheader" style = "border-bottom: 0.077em solid #E1E8EA;">   
+    <p>
+      <span><img class = "topicon" src="assets/horn.svg" alt="Horn"> Dashboard &nbsp; > <img class = "topicon" src="assets/pin.svg" alt="Pin"> Noticeboard</span>
+    </p>
+  </div>
+
+<div style="background-color: #fff; padding-bottom: 10px;">
+ <!-- Notifications Bar -->
+   <div id="notificationsbar">
+    <marquee width="100%" direction="left">
+      <p>
+        <span id = "notificationsspan" style = "padding-left:10px"> Unauthorised absense! &nbsp;<img class = "topicon" src="assets/bell.svg" alt="Bell"> <strong> Laura Pearson</strong> has <strong>failed to notify todays absence</strong>, call employee and report to HR</span>
+        <span id="okaytext"> &nbsp; &nbsp; &nbsp;<img class = "okayicon" src="assets/check.svg" alt="Check"> Okay</span>
+      </p>
+      </marquee>
+  </div>
+
+ <!-- Noticeboard -->
+    <h1 class="noticeboardh1text">Noticeboard</h1><br>
+    <div class = "allprofiles">
+      <div class="profiles">
+        <figure class="pic_border">
+             <img class="profile_pic" src="assets/profile_4.webp" alt="Laura Pearson"/> <figcaption>Laura Pearson</figcaption>
+        </figure>
+      </div>
+      <div class="profiles">
+        <figure class="pic_border">
+             <img class="profile_pic" src="assets/profile_5.webp" alt="Leah Walter" /><figcaption>Leah Walter</figcaption>
+        </figure>
+      </div>
+      <div class="profiles">
+        <figure class="pic_border">
+             <img class="profile_pic" src="assets/profile_2.webp" alt="Diana Lord" /><figcaption>Diana Lord</figcaption>
+        </figure>
+      </div>
+      <div class="profiles">
+        <figure class="pic_border">
+             <img class="profile_pic" src="assets/profile_1.webp" alt="Brendan Simcox" /><figcaption>Brendan Simcox</figcaption>
+        </figure>
+      </div>
+      <div class="profiles2">
+        <figure class="pic_border">
+          <img class="profile_pic" src="assets/profile_3.webp" alt="Brendan Simcox" /> <figcaption>Heather Ross</figcaption>
+        </figure>
+      </div>
+      <div class="profiles2">
+        <figure class="pic_border">
+             <img class="profile_pic" src="assets/profile_6.webp" alt="Brandon Taylor" /><figcaption>Brandon Taylor</figcaption>
+        </figure>
+      </div>
+    </div>
+</div>
+<!-- IGNORE -->
+<div> 
+  
+  
+  <!-- 2 banner -->
+  <div class="row">
+    <div class="column">
+      <img id = "confetti1" src="assets/milestone_bg@2x.png" />
+      <img id = "smileyface" src="assets/smiley-glasses.svg" />
+      <img id = "present" src="assets/present.svg" />
+      <img id = "confetti2" src="assets/milestone_bg@2x.png" />
+      <div class="hero-text">
+        <p class="itemname" style="color: white">You've unlocked 100s of</p>
+        <h1 style="color: white">Benefits</h1>
+        <hr class="divider"><br>
+        <p class="itemname" style="color: white">Check out your latest offers and discounts. <br>Go on, treat yourself!</p>
+      </div>
+    </div>
+
+    <div class="column2">
+      <img id="holidaypic" style = "float: right; height: 130px;" src="assets/holiday_bg@2x.png" />
+      <div class="hero-text">
+        <p class="itemname" style="color: white">You're going on holiday in</p>
+        <h1 style="color: white">2 days</h1>
+        <hr class="divider"><br>
+        <p class="itemname" style="color: white">Whether it's a city break, rural ramble or <br>duvet day - kick back and relax.</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row">  
+
+    <!-- TILE COLUMN 1  -->
+    <div class="tilecolumn1">
+
+        <!-- Notifications collapsible -->
+        <div class="notificationstile">
+
+          <p class="tileheader">Notifications</p>
+          
+            <div style="padding-bottom: 15px;">
+              <button id="btn" type="button" class="collapsible">You're doing 2 hours of overtime at 6pm tomorrow <p class = "datetext">5 Dec at 10.01am</p> </button>
+              <div class="collcontent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            
+            <div style="padding-bottom: 15px;">
+              <button id="btn" type="button" class="collapsible">You're going on holiday in 2 days, Hooray!<p class = "datetext">5 Dec at 10.01am</p></button>
+              <div class="collcontent">
+                <p>Enjoy your time off! But first, fill out this handy <a href="#">handover form</a> and keep everyone up-to-date.</p>
+              </div>
+            </div>
+
+            <div style="padding-bottom: 15px;">
+              <button id="btn" type="button" class="collapsible">You're appraisal is happening in 5 days. <p class = "datetext">5 Dec at 10.01am</p></button>
+              <div class="collcontent">
+                <p>You're already 70% of the way - finish your preparation by completing your appraisal form.</p>
+              </div>
+            </div>
+
+            <div style="padding-bottom: 15px;">
+              <button id="btn" type="button" class="collapsible">Complete your profile details <p class = "datetext">5 Dec at 10.01am</p></button>
+              <div class="collcontent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div style="padding-bottom: 15px;">
+              <button id="btn" type="button" class="collapsible">You still have 3 days annual leave to take <p class = "datetext">5 Dec at 10.01am</p></button>
+              <div class="collcontent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              </div>
+            </div>
+          
+        </div>
+
+
+        <!-- Remind me Section -->
+        <div class="remindmetile">
+
+          <p class="tileheader">Remind me</p>
+          <div class="listitems">
+            <div class="search"><input type="text" placeholder="What do you need to remember?" id="search-container"/></div>
+
+            <div id = "listcontainer"><input type="checkbox" id="remindme" style="margin-right: 10px;"><label>Christmas party deposit</label></div>
+            <div id = "listcontainer"><input type="checkbox" id="remindme" style="margin-right: 10px;"><label>Shopping in fridge to take home</label></div>
+            <div id = "listcontainer"><input type="checkbox" id="remindme" style="margin-right: 10px;"><label>Complete appraisal form</label></div>
+            <div id = "listcontainer"><input type="checkbox" id="remindme" style="margin-right: 10px;"><label>Book annual leave for Paris</label></div>
+          </div>
+          
+        </div>
+
+    </div>
+
+
+    <!-- TILE COLUMN 2  -->
+    <div class="tilecolumn2">
+
+        <!-- Who's out of the office Section -->
+        <div class="outofofficetile">
+
+          <p class="tileheader">Who's out of the office?</p>
+          <div style="padding-top: 5px; padding-bottom: 15px;">
+            <img class="officeicon" src="assets/profile_1.webp"><p class="itemname"style="margin: 0%; padding-top: 10px;">Brendan Simcox</p> <p class="itemdesc" style="margin: 0%;">Annual Leave</p>
+          </div>
+          <div style="padding-top: 5px; padding-bottom: 15px;">
+            <img class="officeicon" src="assets/profile_2.webp"><p class="itemname"style="margin: 0%; padding-top: 10px;">Diana Lord</p> <p class="itemdesc" style="margin: 0%;">Sick Leave</p>
+          </div>
+          <div style="padding-top: 5px; padding-bottom: 15px;">
+            <img class="officeicon" src="assets/profile_3.webp"><p class="itemname"style="margin: 0%; padding-top: 10px;">Heather Ross</p> <p class="itemdesc" style="margin: 0%;">Annual Leave</p>
+          </div>
+          
+        </div>
+
+
+        <!-- upcoming events Section -->
+        <div class="upcomingtile">
+
+          <p class="tileheader">Upcoming Events</p>
+          <div class = "events">
+            <div class="date"><p class = "datenum">20</p><p id = "datetext" style="margin: 0; color: #3D99FF">DEC</p></div>
+            <p class="itemname"style="margin: 0%; padding-top: 10px; color: #3d99ff; margin-left: 55px;">Christmas Party</p> <p class="itemdesc" style="margin: 0%; color: #9BA0A9; margin-left: 55px;">Holmes Mill // @7.30pm</p>
+          </div>
+          <div class = "events">
+            <div class="date"><p class = "datenum">15</p><p id = "datetext" style="margin: 0; color: #3D99FF">JAN</p></div>
+            <p class="itemname"style="margin: 0%; padding-top: 10px; color: #3d99ff; margin-left: 55px;">Laura's Birthday Lunch</p> <p class="itemdesc" style="margin: 0%; color: #9BA0A9; margin-left: 55px;">Ribchester Arms // @1.30pm</p>
+          </div>
+          <div id = "tournament" class = "events">
+            <div class="date"><p class = "datenum">03</p><p id = "datetext" style="margin: 0; color: #3D99FF">MAR</p></div>
+            <p class="itemname"style="margin: 0%; padding-top: 10px; color: #3d99ff; margin-left: 55px;">Charity Football Tournament</p> <p class="itemdesc" style="margin: 0%; color: #9BA0A9; margin-left: 55px;">Darwen F.C // @2.00pm</p>
+          </div>
+          
+        </div>
+
+        <!-- Milestone Section -->
+        <div class="milestonetile">
+
+          <p style="padding-left: 42px;" class="tileheader">My Milestones</p>
+          
+          <div id="balloon" style="padding-top: 15px; padding-bottom: 15px;">
+            <img class="officeicon" src="assets/baloon.svg"><p class="itemname"style="margin: 0%; padding-top: 10px;">5 Year Anniversary</p> <p class="itemdesc" style="margin: 0%;">06/01/2020</p>
+          </div>
+          <div style="padding-top: 15px; padding-bottom: 15px; padding-left: 42px;">
+            <img class="officeicon" src="assets/clap.svg"><p class="itemname"style="margin: 0%; padding-top: 10px;">No absenses this year!</p> <p class="itemdesc" style="margin: 0%;">04/12/2019</p>
+          </div>
+          <div style="padding-top: 15px; padding-bottom: 15px; padding-left: 42px;">
+            <img class="officeicon" src="assets/present.svg"><p class="itemname"style="margin: 0%; padding-top: 10px;">Unlocked 3 new rewards</p> <p class="itemdesc" style="margin: 0%;">01/01/2019</p>
+          </div>
+          <div style="padding-top: 15px; padding-bottom: 15px; padding-left: 42px;">
+            <img class="officeicon" src="assets/smiley-glasses.svg"><p class="itemname"style="margin: 0%; padding-top: 10px;">Completed 5 major projects, well done!</p> <p class="itemdesc" style="margin: 0%;">18/11/2018</p>
+          </div>
+          <div style="padding-top: 15px; padding-bottom: 15px; padding-left: 42px;">
+            <img class="officeicon" src="assets/graduation-cap.svg"><p class="itemname"style="margin: 0%; padding-top: 10px;">Completed training in first aid</p> <p class="itemdesc" style="margin: 0%;">01/04/2018</p>
+          </div>
+          
+          
+        </div>
+
+    </div>
+
+</div>
+
+ <!-- Tournament Modal -->
+  <div id="mytournamentmodal" class="tournamentmodal">
+      <div class="tournamentmodal-content">
+      <span class="tournamentclose"><img id = "tournamentclose" src = "assets/close_black.svg"></img></span>
+      <img class="tournamentimage" src="assets/tournament_header@2x.webp"><h1>Charity Football Tournament</h1>
+      <p class="itemdesc">
+      <span><img class = "topicon" src="assets/horn.svg" alt="Calendar"> 03/03/2020 &nbsp;<img class = "topicon" src="assets/pin.svg" alt="Clock"> 2.00pm - 4.00pm</span>
+      </p>
+      <p class="darwen">@ Darwen F.C</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+   <!-- Anniversary Modal -->
+   <div id="myanniversarymodal" class="anniversarymodal">
+    <div class="anniversarymodal-content">
+    <span class="anniversaryclose"><img id = "anniversaryclose" src = "assets/close.svg"></img></span>
+    <img id="anniversaryheaderimage" src="assets/anniversary_header@2x.webp"><h1 style="color: white;">Happy Work Anniversary Laura</h1>
+    <p style = "color: white; font-size: 18px;"class="itemdesc">Congratulations! you've been with us <strong style="font-family: Rubik; font-size: 18px; font-style: normal; font-weight: 500; line-height: 21px; letter-spacing: 0px; text-align: center;">5 years.</strong></p>
+    <p class="darwen">Thank you for being part of our company's success.</p>
+  </div>
+</div>
+
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plus copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Noticeboard" transform="translate(-545.000000, -1552.000000)" stroke="#FFFFFF" stroke-width="3">
+            <g id="Group-42" transform="translate(48.000000, 1457.000000)">
+                <g id="Group-26" transform="translate(482.000000, 80.000000)">
+                    <g id="plus-copy" transform="translate(17.000000, 17.000000)">
+                        <line x1="4.5" y1="0" x2="4.5" y2="9" id="Shape"></line>
+                        <line x1="0" y1="4.5" x2="9" y2="4.5" id="Shape"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>add</title>
+    <defs>
+        <path d="M456,17 C457.104569,17 458,17.8954305 458,19 L458,27 L466,27 C467.104569,27 468,27.8954305 468,29 C468,30.1045695 467.104569,31 466,31 L458,31 L458,39 C458,40.1045695 457.104569,41 456,41 C454.895431,41 454,40.1045695 454,39 L454,31 L446,31 C444.895431,31 444,30.1045695 444,29 C444,27.8954305 444.895431,27 446,27 L454,27 L454,19 C454,17.8954305 454.895431,17 456,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Story-Modal" transform="translate(-446.000000, -19.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="add" fill="#FFFFFF" transform="translate(456.000000, 29.000000) rotate(45.000000) translate(-456.000000, -29.000000) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

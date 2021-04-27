@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>add</title>
+    <defs>
+        <path d="M462,17 C463.104569,17 464,17.8954305 464,19 L464,27 L472,27 C473.104569,27 474,27.8954305 474,29 C474,30.1045695 473.104569,31 472,31 L464,31 L464,39 C464,40.1045695 463.104569,41 462,41 C460.895431,41 460,40.1045695 460,39 L460,31 L452,31 C450.895431,31 450,30.1045695 450,29 C450,27.8954305 450.895431,27 452,27 L460,27 L460,19 C460,17.8954305 460.895431,17 462,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Modal" transform="translate(-451.000000, -21.000000)">
+            <g id="Group-45" transform="translate(-1.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="add" fill="#000000" transform="translate(462.000000, 29.000000) rotate(45.000000) translate(-462.000000, -29.000000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
